@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #F7EDE2;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Radicalis';
+  src: url('./fonts/Radicalis.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairI';
+  src: url('./fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
