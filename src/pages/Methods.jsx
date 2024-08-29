@@ -6,7 +6,7 @@ function Methods() {
     <>
     <Navbar />
 
-    <div>Methods</div>
+    <div className="text-black xl:translate-y-20">Methods</div>
     </>
   )
 }

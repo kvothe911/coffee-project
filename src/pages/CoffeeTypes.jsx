@@ -5,7 +5,7 @@ function CoffeeTypes() {
   return (
     <>
     <Navbar />
-    <div>CoffeeTypes</div>
+    <div className="text-black xl:translate-y-20">CoffeeTypes</div>
     </>
   )
 }

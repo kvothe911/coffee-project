@@ -6,7 +6,7 @@ function Process() {
     <>
     <Navbar />
       
-    <div>Process</div>
+    <div className="text-black xl:translate-y-20">Process</div>
     </>
   )
 }

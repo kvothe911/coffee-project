@@ -5,7 +5,7 @@ function LatteArt() {
   return (
     <>
     < Navbar />
-    <div>LatteArt</div>
+    <div className="text-black xl:translate-y-20">LatteArt</div>
     </>
   )
 }

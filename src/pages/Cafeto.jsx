@@ -6,7 +6,7 @@ function Cafeto() {
     <>
       <Navbar />
       
-      <div>Cafeto</div>
+      <div className="text-black xl:translate-y-20">Cafeto</div>
 
     </>
   );

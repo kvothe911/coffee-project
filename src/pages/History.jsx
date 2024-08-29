@@ -6,7 +6,7 @@ function History() {
     <>
       <Navbar />
       
-      <div>History</div>
+      <div className="text-black xl:translate-y-20">History</div>
 
     </>
   );

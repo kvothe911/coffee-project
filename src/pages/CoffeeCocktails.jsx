@@ -5,7 +5,7 @@ function CoffeeCocktails() {
   return (
     <>
     <Navbar />
-    <div>CoffeeCocktails</div>
+    <div className="text-black xl:translate-y-20">CoffeeCocktails</div>
     </>
   )
 }

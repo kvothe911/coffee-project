@@ -7,7 +7,7 @@ function Home() {
     <>
       <Navbar />
       
-      <img src={heroCoffee} alt="Universal Coffee image" className="w-full h-96 object-cover translate-y-20 "/>
+      <img src={heroCoffee} alt="Universal Coffee image" className="w-full h-svh xl:h-96 object-cover object-center xl:translate-y-20 "/>
 
       <div>Home</div>
 
