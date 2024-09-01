@@ -12,11 +12,11 @@ function Navbar() {
   return (
     <>
       <Header />
-      <div className={`fixed top-14 left-1/2 -translate-x-1/2 z-[99] xl:hidden p-1 bg-[#2E241D] border-4 rounded-full border-orange-300 transform ease-in-out duration-700 ${nav ? "translate-y-[140vh]" : "scale-100"}`}>
+      <div className={`fixed top-14 left-1/2 -translate-x-1/2 z-[99] xl:hidden p-1 bg-orange-300 border-4 rounded-full border-[#432A19] transform ease-in-out duration-700 ${nav ? "translate-y-[140vh]" : "scale-100"}`}>
         <AiOutlineMenu
           onClick={handleNav}
           size={30}
-          className={`cursor-pointer text-neutral-50 transform transition-transform duration-300 hover:scale-110`}
+          className={`cursor-pointer text-neutral-950 transform transition-transform duration-300 hover:scale-110`}
         />
         
       </div>
@@ -24,22 +24,17 @@ function Navbar() {
       <AiOutlineClose
           onClick={handleNav}
           size={30}
-          className={`cursor-pointer text-[#2E241D] transform transition-transform duration-300 hover:scale-110`}
+          className={`cursor-pointer text-orange-300 transform transition-transform duration-300 hover:scale-110`}
         />
       </div>
 
       {/* Circulo de menu, baja solo cuando nav=true*/}
       <div
-        className={`xl:hidden fixed w-[200vh] h-[200vh] bg-orange-300 rounded-full left-1/2 transform -translate-x-1/2 transition-all duration-700 ease-in-out flex flex-col gap-3 justify-center items-center z-20 ${
+        className={`xl:hidden fixed w-[200vh] h-[200vh] bg-[#432A19] rounded-full left-1/2 transform -translate-x-1/2 transition-all duration-700 ease-in-out flex flex-col gap-3 justify-center items-center z-20 ${
           nav ? "top-[-50vh]" : "top-[-188vh]"
         }`}
       >
-        <Link
-          to="/"
-          className="font-playfairI text-2xl text-orange-100 py-1 px-4 bg-[#2E241D] rounded-3xl transform transition-transform duration-300 hover:scale-105"
-        >
-          Home
-        </Link>
+        
         <Link
           to="/history"
           className="font-playfairI text-2xl text-orange-100 py-1 px-4 bg-[#2E241D] rounded-3xl transform transition-transform duration-300 hover:scale-105"
@@ -87,9 +82,7 @@ function Navbar() {
         <nav className="">
           <ul className="absolute right-10 top-6 flex gap-10">
             <li>
-              <Link to="/" className="font-playfairI text-lg text-amber-50">
-                Home{" "}
-              </Link>
+              
             </li>
             <li>
               <Link
