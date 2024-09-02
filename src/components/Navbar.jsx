@@ -39,7 +39,7 @@ function Navbar() {
           to="/history"
           className="font-playfairI text-2xl text-orange-100 py-1 px-4 bg-[#2E241D] rounded-3xl transform transition-transform duration-300 hover:scale-105"
         >
-          History
+          Historia
         </Link>
         <Link
           to="/cafeto"
@@ -89,7 +89,7 @@ function Navbar() {
                 to="/history"
                 className="font-playfairI text-lg text-amber-50"
               >
-                History
+                Historia
               </Link>
             </li>
             <li>
@@ -105,7 +105,7 @@ function Navbar() {
                 to="/process"
                 className="font-playfairI text-lg text-amber-50"
               >
-                Process
+                Proceso
               </Link>
             </li>
             <li>
@@ -113,7 +113,7 @@ function Navbar() {
                 to="/methods"
                 className="font-playfairI text-lg text-amber-50"
               >
-                Methods
+                Métodos
               </Link>
             </li>
             <li>
@@ -129,7 +129,7 @@ function Navbar() {
                 to="/coffeetypes"
                 className="font-playfairI text-lg text-amber-50"
               >
-                Coffee Types
+                Tipos de Café
               </Link>
             </li>
             <li>
@@ -137,7 +137,7 @@ function Navbar() {
                 to="/coffeecocktails"
                 className="font-playfairI text-lg text-amber-50"
               >
-                Coffee Cocktails
+                Cócteles de Café
               </Link>
             </li>
           </ul>
