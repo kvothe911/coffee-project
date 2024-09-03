@@ -8,7 +8,7 @@ function Header() {
         <Link to='/'
         className="absolute top-4"
         >
-        <h1 className=" font-radicalis text-3xl text-amber-50 border rounded-full border-amber-50 bg-[#2E241D] px-6">
+        <h1 className=" font-radicalis text-3xl text-amber-50 border rounded-full border-amber-50 bg-[#432A19] px-6">
           Coffee World
         </h1></Link>
       </div>

@@ -51,25 +51,25 @@ function Navbar() {
           to="/process"
           className="font-playfairI text-2xl text-orange-100 py-1 px-4 bg-[#2E241D] rounded-3xl transform transition-transform duration-300 hover:scale-105"
         >
-          Process
+          Proceso
         </Link>
         <Link
           to="/methods"
           className="font-playfairI text-2xl text-orange-100 py-1 px-4 bg-[#2E241D] rounded-3xl transform transition-transform duration-300 hover:scale-105"
         >
-          Methods
+          Métodos
         </Link>
         <Link
           to="/coffeetypes"
           className="font-playfairI text-2xl text-orange-100 py-1 px-4 bg-[#2E241D] rounded-3xl transform transition-transform duration-300 hover:scale-105"
         >
-          Coffee Types
+          Tipos de Café
         </Link>
         <Link
           to="/coffeecocktails"
           className="font-playfairI text-2xl text-orange-100 py-1 px-4 bg-[#2E241D] rounded-3xl transform transition-transform duration-300 hover:scale-105"
         >
-          Coffee Cocktails
+          Cócteles de Café
         </Link>
       </div>
 
